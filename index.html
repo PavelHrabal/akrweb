@@ -27,6 +27,10 @@
             background: #eee;
             border-radius: 5px;
         }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -38,7 +42,13 @@
 
     <script>
         var input = window.location.hash.substring(1);
-        document.getElementById("output").innerHTML = input; // ZRANITELNÝ KÓD
+        var outputDiv = document.getElementById("output");
+        
+        if (input.toLowerCase() === "error") {
+            outputDiv.innerHTML = "<span class='error'>Chyba: Neplatný vstup!</span>";
+        } else {
+            outputDiv.innerHTML = input; // ZRANITELNÝ KÓD
+        }
     </script>
 </body>
 </html>
