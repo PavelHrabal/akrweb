@@ -1,0 +1,7 @@
+[2025-04-18T17:29:52.780Z] 🍪 Cookie: testovacihodnota
+[2025-04-18T17:32:40.734Z] 🍪 Cookie: ' document.cookie '
+[2025-04-18T18:20:53.806Z] 🍪 Cookie: undefined
+[2025-04-18T18:20:53.839Z] 🍪 Cookie: undefined
+[2025-04-18T18:20:53.917Z] 🍪 Cookie: undefined
+[2025-04-18T18:21:26.862Z] 🍪 Cookie: undefined
+[2025-04-18T18:21:27.478Z] 🍪 Cookie: undefined
